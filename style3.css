@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    
+}
+.menu-items{
+    display:flex;
+    list-style: none;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: aqua;
+}
+.nav-itm{
+    padding:1rem;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    height:10px;
+}
+li a{
+    text-decoration: none;
+}
+li:hover{
+    cursor: pointer;
+}
+.home-content{
+    height:40rem;  
+    background-color: aqua;  
+}
+.name ,.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:10rem;
+    color:#07374a;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.about-me{
+    background-color: #07374a;
+    padding: 20px;
+}
+.heading1, .about-content{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    padding: 35px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills{
+    color: white;
+    height:20rem;
+    font-family: sans-serif;
+    padding:10px;
+    margin-top: 15px;
+}
+.skill{
+    padding:10px;
+}
+.bar{
+    border: 1px solid #07374a;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    height:15px;
+    width:30rem;
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+    padding:5rem;
+}
+img{
+    width:25rem;
+    height:25rem;
+    border:1px solid cyan;
+    border-radius: 25rem;
+}
+.heading2{
+    color: #07374a;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+}
+.tools{
+    color: #07374a;
+    font-family: sans-serif;
+    padding: 3rem;
+}
+button{
+    width:10rem;
+    height: 2rem;
+    border-radius: 8px;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+button:hover{
+    background-color:#07374a;
+    color: white;
+}
+.details{
+    background-color: #07374a;
+    color: cyan;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+.eid{
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+}
+.media{
+    display: flex;
+    padding: 20px;
+}
+i{
+    padding: 0 10px;
+}
+.row{
+    display: flex;
+    padding:0 20px;
+}
+i:hover,.pltfrm:hover{
+cursor: pointer;
+}
